@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spaceship or Carrot?</title>
+    <description>Jack Goffinet's blog</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;h3 id=&quot;this-is-my-new-blog&quot;&gt;This is my new blog.&lt;/h3&gt;
+
+&lt;p&gt;It’s a work in progress.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//2017-01-27/hello-world/</link>
+        <guid isPermaLink="true">http://localhost:4000//2017-01-27/hello-world/</guid>
+      </item>
+    
+  </channel>
+</rss>
