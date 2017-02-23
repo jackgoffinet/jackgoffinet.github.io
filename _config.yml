@@ -3,8 +3,9 @@ name:               "Spaceship or Carrot?"
 description:        "Jack Goffinet's blog"
 
 author:
-  email:            jackgoffinet@gmail.com
   github:           jackgoffinet
+  #email:            jackgoffinet@gmail.com
+
 
 copyright:
   year:             2017
@@ -15,12 +16,12 @@ google-analytics:
   id:               "UA-91117435-1"
 
 # Disqus
-disqus:
-  id:               "jackgoffinet"
+# disqus:
+#   id:               "jackgoffinet"
 
 # URL
 url:                "https://jackgoffinet.github.io" # the base hostname & protocol for your site
-#url:                "http://localhost:4000" # use this url when you develop
+# url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
