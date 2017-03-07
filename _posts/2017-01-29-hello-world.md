@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Hello World"
-description: "first post"
+description: "First post"
 date: 2017-01-27
 tags: [hello]
-comments: true
+comments: false
 share: true
 ---
 

@@ -13,10 +13,9 @@ Subscribe to the [RSS](https://jackgoffinet.github.io/feed.xml "subscribe") feed
 
 #### Contact
 
-If I were a famous 19<sup>th</sup> century composer, my email address would be: johannesbrahms@gmail.com
+If I were a famous 19<sup>th</sup> century composer, my email address could be: johannesbrahms@gmail.com
 
 #### Site
 
-This website is built using [Jekyll](http://en.wikipedia.org/wiki/Jekyll_(software)) and based on the freely available [Kiko Plus Theme](http://github.com/AWEEKJ/Kiko-plus).
-
-
+This website is built using [Jekyll](http://en.wikipedia.org/wiki/Jekyll_(software)) and its
+formatting is based on the freely available [Kiko Plus Theme](http://github.com/AWEEKJ/Kiko-plus).
