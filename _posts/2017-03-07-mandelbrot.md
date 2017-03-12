@@ -17,12 +17,13 @@ where $$f_1(z) \equiv z$$ and $$f_n(z) \equiv [f_{n-1}(z)]^2 + z$$ for all $$n>1
 In other words, $$M$$ is the set of complex numbers $$c$$ such that the repeated compositions of the
 mapping $$z \mapsto z^2 + c$$ remain bounded.
 
-It looks something like this:
+It looks like this:
 
 <img src="{{ site.url }}/images/mandelbrot.png" width="600" align="middle" alt="mandelbrot plot">
 
 It's a [fractal](http://mathworld.wolfram.com/Fractal.html),
 so it displays self-similarity on all scales and is endlessly detailed.
+
 Now imagine a record player's needle tracing along the shape's perimeter, starting off
 very fast, circling the shape many times a second, and then gradually slowing down,
 approaching a standstill.
@@ -113,7 +114,6 @@ higher frequencies, which is exactly what we want.
 Finally, define $$f(i) = \vert \frac{z_i+z_{i+1}}{2} - c\vert$$. For each $$i$$ the function
 $$f$$ describes the oscillations of the countour line $$\widetilde{M}_k(c,h) = p + \delta$$
 relative to the oscillations of the contour line $$\widetilde{M}_k(c,h) = p$$.
-Apply a discrete gaussian blur and a sliding window normalization to $$f$$ and,
-voila, we have an audio file!
+Normalize and blur $$f$$ and voila, we have an audio file!
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/311256385&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
