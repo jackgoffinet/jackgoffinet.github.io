@@ -16,13 +16,14 @@
 In other words, &lt;script type=&quot;math/tex&quot;&gt;M&lt;/script&gt; is the set of complex numbers &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; such that the repeated compositions of the
 mapping &lt;script type=&quot;math/tex&quot;&gt;z \mapsto z^2 + c&lt;/script&gt; remain bounded.&lt;/p&gt;
 
-&lt;p&gt;It looks something like this:&lt;/p&gt;
+&lt;p&gt;It looks like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/mandelbrot.png&quot; width=&quot;600&quot; align=&quot;middle&quot; alt=&quot;mandelbrot plot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It’s a &lt;a href=&quot;http://mathworld.wolfram.com/Fractal.html&quot;&gt;fractal&lt;/a&gt;,
-so it displays self-similarity on all scales and is endlessly detailed.
-Now imagine a record player’s needle tracing along the shape’s perimeter, starting off
+so it displays self-similarity on all scales and is endlessly detailed.&lt;/p&gt;
+
+&lt;p&gt;Now imagine a record player’s needle tracing along the shape’s perimeter, starting off
 very fast, circling the shape many times a second, and then gradually slowing down,
 approaching a standstill.
 If the Mandelbrot set’s grooves were like those of a normal record, you would hear the
@@ -113,8 +114,7 @@ higher frequencies, which is exactly what we want.&lt;/p&gt;
 &lt;p&gt;Finally, define &lt;script type=&quot;math/tex&quot;&gt;f(i) = \vert \frac{z_i+z_{i+1}}{2} - c\vert&lt;/script&gt;. For each &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt; the function
 &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; describes the oscillations of the countour line &lt;script type=&quot;math/tex&quot;&gt;\widetilde{M}_k(c,h) = p + \delta&lt;/script&gt;
 relative to the oscillations of the contour line &lt;script type=&quot;math/tex&quot;&gt;\widetilde{M}_k(c,h) = p&lt;/script&gt;.
-Apply a discrete gaussian blur and a sliding window normalization to &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; and,
-voila, we have an audio file!&lt;/p&gt;
+Normalize and blur &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; and voila, we have an audio file!&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/311256385&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
 </description>

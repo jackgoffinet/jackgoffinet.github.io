@@ -5,15 +5,15 @@ permalink: /about/
 
 #### What is this?
 
-This is Jack Goffinet's blog.
+This is Jack Goffinet's personal website.
 
 ##### Who is he?
 
-Subscribe to the [RSS](https://jackgoffinet.github.io/feed.xml "subscribe") feed to find out!
+I live in Athens, GA and I'm interested in music, language, and computer science.
 
 #### Contact
 
-If I were a famous 19<sup>th</sup> century composer, my email address could be: johannesbrahms@gmail.com
+If my name were Spaceship Carrot, my email address would be: spaceshipcarrot@gmail.com
 
 #### Site
 
