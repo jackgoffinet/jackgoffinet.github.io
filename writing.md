@@ -5,8 +5,7 @@ permalink: /writing/
 
 
 ##### *Little Evidence for the Vocal Similarity Hypothesis*, 2018
-A letter in response to [this](https://doi.org/10.1073/pnas.1713206115) article.
-Submitted for publication. [[repo](https://github.com/jackgoffinet/vocal_similarity)]
+A letter in response to: [Bowling, D. L., Purves, D., & Gill, K. Z. (2017). Vocal similarity predicts the relative attraction of musical chords. Proceedings of the National Academy of Sciences, 201713206.](https://doi.org/10.1073/pnas.1713206115) Bowling et al. present perceptual data they claim supports the hypothesis that the perceived consonance of musical chords is explained in part by their relative similarity to voiced speech sounds. I argue the results do not support this hypothesis. Published in PNAS. [[pdf](https://github.com/jackgoffinet/vocal_similarity/raw/master/little_evidence.pdf)][[html](https://doi.org/10.1073/pnas.1804577115)][[repo](https://github.com/jackgoffinet/vocal_similarity)][[response](https://doi.org/10.1073/pnas.1805570115)]
 
 ---
 
@@ -14,7 +13,7 @@ Submitted for publication. [[repo](https://github.com/jackgoffinet/vocal_similar
 An experiment investigating the repeated memorization and
 transcription of sequences of pitches. The initial sequences are randomly generated,
 but they undergo changes that make them easier to memorize and more similar to
-actual music. Submitted for publication.
+music around the world. Submitted for publication.
 
 ---
 
@@ -26,8 +25,8 @@ needle traced its perimeter, constantly slowing down.
 ---
 
 ##### *Monte-carlo Tree Search for the Maximum Satisfiability Problem*, 2016
-Research with [Dr. Raghuram Ramanujan](http://academics.davidson.edu/math/ramanujan/)
-investigating the application of the Monte-carlo Tree Search method UCT to
+Coauthored with [Dr. Raghuram Ramanujan](http://academics.davidson.edu/math/ramanujan/).
+An investigation of the application of the Monte-carlo Tree Search method UCT to
 the Maximum Satisfiability problem (MaxSAT). MaxSAT is the optimization variant
 of the Satisfiability problem (SAT), the decision problem first proved
 [NP-complete](https://en.wikipedia.org/wiki/NP-completeness). Presented at the
