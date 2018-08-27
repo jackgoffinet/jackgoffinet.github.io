@@ -7,9 +7,13 @@ permalink: /about/
 
 This is Jack Goffinet's personal website.
 
+<img src="{{ site.url }}/images/jack.jpg" width="200" align="center" alt="jack.jpg">
+
 ##### Who is he?
 
-I live in Athens, GA and I'm interested in music, language, and computer science.
+I live in ~~Athens GA~~ Durham NC and I'm interested in music, language, and computer science.
+I currently study mice vocalization in the [Pearson Lab](https://pearsonlab.github.io/) at Duke University's
+[Center for Cognitive Neuroscience](https://dibs.duke.edu/centers/ccn).
 
 #### Contact
 
