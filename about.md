@@ -3,17 +3,14 @@ title: About
 permalink: /about/
 ---
 
-#### What is this?
-
-This is Jack Goffinet's personal website.
+#### Hello,
+I'm Jack Goffinet --- welcome to my website.
 
 <img src="{{ site.url }}/images/jack.jpg" width="200" align="center" alt="jack.jpg">
 
-##### Who is he?
-
 I live in ~~Athens GA~~ Durham NC and I'm interested in music, language, and computer science.
-I currently study mice vocalization in the [Pearson Lab](https://pearsonlab.github.io/) at Duke University's
-[Center for Cognitive Neuroscience](https://dibs.duke.edu/centers/ccn).
+I currently study mice vocalization in the [Pearson](https://pearsonlab.github.io/) and
+[Mooney](https://www.neuro.duke.edu/mooney-lab) labs at Duke University.
 
 #### Contact
 
