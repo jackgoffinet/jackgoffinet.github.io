@@ -1,86 +1,75 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Jack Goffinet</h2>
+    <h4>Links</h4>
+    <ul>
+     <li><a href="https://scholar.google.com/citations?user=-oXW2RYAAAAJ&hl=en">Google Scholar</a></li>
+     <li><a href="https://www.github.com/jackgoffinet/">Github</a></li>
+    </ul>
 
-<header class="header">
-  <h1 class="header-title">
-    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}<span> I'm not sure.</span></a>
-  </h1>
-
-  <nav class="header-nav">
-    {% for nav in site.nav %}
-    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}">{{ nav.name }}</a>
-    {% else %}
-    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-    {% endif %}
-    {% endfor %}
-  </nav>
-</header>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-91117435-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<div class="list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
-      <div class="list-post-title">
-        {{ post.title }}
-      </div>
-      {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
-      {% endif %}
-    </a>
-
-
-  </div>
-{% endfor %}
-  <!-- Pagination links -->
-  <div class="list-pagination">
-    <span class="list-pagination-previous">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-          <i class="fa fa-arrow-left" aria-hidden="true"></i>
-          Previous
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-    <span class="list-pagination-next">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-          Next
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-  </div>
-{% endif %}
-</div>
+    <h4>Papers</h4>
+    <ul>
+     <li>
+       Singh Alvarado, J., Goffinet, J., Michael, V., Liberti, W., Hatfield, J.,
+       Gardner, T., Pearson, J., & Mooney, R. (2021). Neural dynamics underlying
+       birdsong practice and performance. <i>Nature</i>, 1-5.
+       [<a href="https://www.nature.com/articles/s41586-021-04004-1">URL</a>]
+       [<a href="https://github.com/pearsonlab/finch-vae">Repo</a>]
+       [<a href="https://jackgoffinet.github.io/pdfs/singh_2021.pdf">PDF</a>]
+     </li>
+     <li>
+       de Albuquerque, D.F., Goffinet, J., Wright, R., & Pearson, J. (2021).
+       Deep generative
+       analysis of task-based functional MRI experiments. In
+       <i>Machine Learning for Health Care</i>. JMLR.
+       [<a href="https://proceedings.mlr.press/v149/albuquerque21a/albuquerque21a.pdf">PDF</a>]
+       [<a href="https://github.com/pearsonlab/VAE-GAM-">Repo</a>]
+     </li>
+     <li>
+       Goffinet, J., Brudner, S., Mooney, R., Pearson, J. (2021).
+       Low-dimensional learned feature spaces quantify individual and group
+       differences in vocal repertoires.
+       <i>eLife</i>.
+       [<a href="https://elifesciences.org/articles/67855">URL</a>]
+       [<a href="https://github.com/pearsonlab/autoencoded-vocal-analysis">Repo</a>]
+     </li>
+     <li>
+       Michael, V., Goffinet, J., Pearson, J., Wang, F., Mooney, R., Tschida, K.
+       (2020).
+       Circuit and synaptic organization of forebrain-to-midbrain pathways that
+       promote and suppress vocalization.
+       <i>eLife</i>.
+       [<a href="https://doi.org/10.7554/eLife.63493">URL</a>]
+       [<a href="https://github.com/pearsonlab/autoencoded-vocal-analysis">Repo</a>]
+     </li>
+     <li>
+       Goffinet, J.
+       Little evidence for the vocal similarity hypothesis.
+       <i>Proceedings of the National Academy of Sciences</i>. 115.22 (2018):
+       E4957-E4957
+       [<a href="https://doi.org/10.1073/pnas.1804577115">URL</a>]
+       [<a href="https://jackgoffinet.github.io/pdfs/little_evidence.pdf">PDF</a>]
+       [<a href="https://github.com/jackgoffinet/vocal_similarity">Repo</a>]
+     </li>
+     <li>
+       Goffinet, J., & Ramanujan, R.
+       Monte-carlo tree search for the maximum satisfiability problem.
+       <i>International Conference on the Principles and Practice of Constraint
+         Programming</i>. Springer, Cham, (2016).
+       [<a href="https://doi.org/10.1007/978-3-319-44953-1_17">URL</a>]
+       [<a href="https://github.com/jackgoffinet/UCTMAXSAT/raw/master/MCTS_for_MaxSAT.pdf">PDF</a>]
+       [<a href="https://github.com/jackgoffinet/UCTMAXSAT">Repo</a>]
+     </li>
+    </ul>
+    <h4>Unpublished</h4>
+    <ul>
+     <li>
+       Goffinet, J. (2018). The Emergence of Music Universals through Iterated
+       Pitch Learning: A Pilot Study.
+       [<a href="https://github.com/jackgoffinet/iterated_pitch_learning/raw/master/iterated_pitch_learning.pdf">PDF</a>]
+       [<a href="https://github.com/jackgoffinet/iterated_pitch_learning">Repo</a>]
+     </li>
+    </ul>
+  </body>
+</html>
